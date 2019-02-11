@@ -16,8 +16,11 @@ The description of startup, log output, and data transfer logic is automatically
 
 
 　このフレームワークを活用するために必要なのは以下の2つだけです。
+ 
 　・処理データを取得するSQL文
+ 
 　・そのSQLが取得した項目と、登録先となるテーブルの項目とをマッピングしたマスタ
+ 
 　ABFは、マスタの登録内容を、あらかじめ用意されたテンプレートとマージし、バッチプログラムのソースを自動生成し、実行します。
 
 In order to make use of this framework, we need only the following two.
