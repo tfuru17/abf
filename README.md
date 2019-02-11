@@ -14,13 +14,15 @@ Most of the coding work can only be done by creating a SQL statement (VIEW).
 The description of startup, log output, and data transfer logic is automatically generated based on pre-set settings.  
 
 　このフレームワークを活用するために必要なのは以下の2つだけです。  
-　・処理データを取得するSQL文  
-　・そのSQLが取得した項目と、登録先となるテーブルの項目とをマッピングしたマスタ  
-　ABFは、マスタの登録内容を、あらかじめ用意されたテンプレートとマージし、バッチプログラムのソースを自動生成し、実行します。  
+* 処理データを取得するSQL文  
+* そのSQLが取得した項目と、登録先となるテーブルの項目とをマッピングしたマスタ  
+
+ABFは、マスタの登録内容を、あらかじめ用意されたテンプレートとマージし、バッチプログラムのソースを自動生成し、実行します。  
 
 In order to make use of this framework, we need only the following two.  
-· SQL statements for acquiring process data  
-· A master that maps the items acquired by the SQL and the items of the table to be registered  
+* SQL statements for acquiring process data  
+* A master that maps the items acquired by the SQL and the items of the table to be registered  
+
 ABF merges the registered content of the master with the template prepared in advance, automatically generates the source of the batch program and executes it.  
 
 ## Licence
